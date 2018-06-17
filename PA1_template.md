@@ -59,7 +59,7 @@ ggplot(stepsByDate, aes(x = steps)) +
         ylab("Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](figure/unnamed-chunk-5-1.png)<!-- -->
 
 ```r
 meanSteps <- mean(stepsByDate$steps)
@@ -80,7 +80,7 @@ ggplot(activityPattern, aes(x = interval, y = steps)) +
         ylab("Average Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](figure/unnamed-chunk-6-1.png)<!-- -->
   
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?  
 
@@ -123,7 +123,7 @@ ggplot(newstepsByDate, aes(x = steps)) +
         ylab("Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](figure/unnamed-chunk-10-1.png)<!-- -->
 
 ```r
 newMeanSteps <- mean(newstepsByDate$steps)
@@ -149,5 +149,5 @@ ggplot(datasetInterval, aes(x=interval, y=steps)) +
         ylab("Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](figure/unnamed-chunk-11-1.png)<!-- -->
 
